@@ -4,7 +4,7 @@ export default function Main() {
     return (
         <main>
             <div className="up-container-main">
-                <div className="container">
+                <div className="center-container">
                     <div className="content-main">
                         {">"} Content goes here {"<"}
                     </div>

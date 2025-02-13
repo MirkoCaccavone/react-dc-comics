@@ -1,11 +1,11 @@
 export default function Footer() {
     return (
         <footer>
-            <div className="up-container">
+            <div className="up-container-footer">
 
-                <div className="container">
+                <div className="sub-container-footer center-container">
 
-                    <div className="sub-container-left">
+                    <div>
                         <ul>
                             <li>DC COMICS</li>
                             <li>Characters</li>
@@ -16,6 +16,16 @@ export default function Footer() {
                             <li>Videos</li>
                             <li>News</li>
                         </ul>
+
+
+                        <ul>
+                            <li>SHOP</li>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
+                        </ul>
+                    </div>
+
+                    <div>
                         <ul>
                             <li>DC</li>
                             <li> Terms Of Use</li>
@@ -30,7 +40,9 @@ export default function Footer() {
                             <li>Shop Help</li>
                             <li>Contact Us</li>
                         </ul>
+                    </div>
 
+                    <div>
                         <ul>
                             <li>SITES</li>
                             <li>DC</li>
@@ -39,22 +51,34 @@ export default function Footer() {
                             <li>DC Universe</li>
                             <li>DC Power Visa</li>
                         </ul>
-
-                        <ul>
-                            <li>SHOP</li>
-                            <li>Shop DC</li>
-                            <li>Shop DC Collectibles</li>
-                        </ul>
                     </div>
-                    <div className="sub-container-right">
-                        {/* <img src="../public/img/dc-logo-bg.png" alt="logo" /> */}
+
+                    <div className="image-container">
+                        <img src="../public/img/dc-logo-bg.png" alt="logo" />
                     </div>
 
                 </div>
-                <div className="down-container">
 
-                </div>
             </div>
+
+            <div className="down-container-footer">
+                <div className="center-container content-footer">
+
+                    <div className="sing-up-button">
+                        SING-UP NOW!
+                    </div>
+                    <div className="social-content">
+                        <span className="follow-us">FOLLOW US</span>
+                        <img src="./img/footer-facebook.png" alt="" />
+                        <img src="./img/footer-twitter.png" alt="" />
+                        <img src="./img/footer-youtube.png" alt="" />
+                        <img src="./img/footer-pinterest.png" alt="" />
+                        <img src="./img/footer-periscope.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+
         </footer>
     )
 }
