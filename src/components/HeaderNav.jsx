@@ -7,8 +7,12 @@ export default function HeaderNav(props) {
             {/* cicliamo con map creando un altro array */}
             <nav>
                 <ul>
-                    {props.links.map((link) =>
-                        <li><a href={link.url}><span>{link.text}</span></a></li>
+                    {props.link.map((link) =>
+                        <li key={link.id}>
+                            <a href={link.url}>
+                                <span>{link.text}</span>
+                            </a>
+                        </li>
                     )}
                 </ul>
             </nav>
