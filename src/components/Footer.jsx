@@ -23,7 +23,7 @@ export default function Footer(props) {
                     </div>
 
                     <div className="image-container">
-                        <img src="../public/img/dc-logo-bg.png" alt="logo" />
+                        <img src="../img/dc-logo-bg.png" alt="logo" />
                     </div>
 
                 </div>

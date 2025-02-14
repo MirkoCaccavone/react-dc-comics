@@ -1,11 +1,14 @@
+// importiamo i file 
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 // import './App.css'
 
 
+// funzione per mostrare il contenuto
 function App() {
 
+  // array di oggetti del header
   const linksHeader = [
     { id: 1, text: "CHARACTERS", url: "#", current: false },
     { id: 2, text: "COMICS", url: "#", current: true },
@@ -19,6 +22,7 @@ function App() {
     { id: 10, text: "SHOP", url: "#", current: false }
   ];
 
+  // array di oggetti del footer
   const linksEntries1 = [
     { id: 1, text: 'Characters', url: '#', current: false },
     { id: 2, text: 'Characters', url: '#', current: false },
@@ -59,6 +63,7 @@ function App() {
     { id: 5, text: 'DC Universe', url: '#', current: false },
     { id: 6, text: 'DC Power Visa', url: '#', current: false },
   ];
+
 
   return (
     <>
